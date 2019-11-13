@@ -1,0 +1,543 @@
+	body, #Navigation, #Header, #Wrap, #News, #Events, #Footer {
+    display: block;
+}
+
+body {
+    background: #c37901 url("../images/background1.jpg") no-repeat fixed;
+    margin: 0;
+    width: 100%;
+}
+
+/*-----------------Navigation Start-----------------*/
+
+#Navigation {
+    background-color: rgba(68, 68, 68, 0.85);
+    overflow: auto;
+    width: 100%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.81);
+}
+
+#Navigation ul {
+    display: inline;
+    list-style: none;
+    padding: 0;
+}
+
+#Navigation li {
+    display: inline;
+}
+
+#Navigation a:hover {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    color: #965e02;
+    text-decoration: underline;
+}
+
+#LeftNav {
+    float: left;
+    width: 70%;
+    margin-top: 2%;
+}
+
+#LeftNav li {
+    padding-left: 5%;
+}
+
+#LeftNav a{
+    text-decoration: none;
+    font: 34px 'Germania One', cursive, serif;
+    color: #fff;
+}
+
+#RightNav {
+    float: right;
+    width: 25%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#RightNav li {
+    float: right;
+    padding-right: 5%;
+}
+
+/*-----------------Navigation End-----------------*/
+
+#Header {
+    width: 100%;
+    background-color: rgba(41, 41, 41, 0.85);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.81);
+    margin-bottom: 5%;
+    
+}
+
+#Header h1 {
+    margin: 0;
+    font: 600% 'Anton', sans-serif;
+    color: #fff;
+    text-shadow: 3px 3px #000;
+    text-align: center;
+}
+
+#Wrap {
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgba(68, 68, 68, 0.85);
+    overflow: auto;
+    border: 1px solid #000;
+    
+}
+
+#Wrap a:hover {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    color: #965e02;
+    text-decoration: underline;
+    
+}
+
+#News {
+    width: 75%;
+    float: left;
+    
+}
+
+.Section {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+	
+    padding:1%;
+    overflow: auto;
+    border: 2px solid #965e02;
+    border-radius: 20px;
+    
+}
+
+.Section h2 {
+    font: 200% 'Anton', sans-serif;
+    text-align: center;
+    background-color: rgba(41, 41, 41, 0.85);
+    color: #fff;
+}
+
+.Section img {
+    float: left;
+    padding-right: 1%;
+}
+
+.Section p {
+    padding-right: 1%;
+    background-color: rgba(41, 41, 41, 0.85);
+    font: 120%/1.5 'Germania One', cursive, serif;
+    color: #fff;
+    
+}
+
+#Events {
+    width: 17%;
+    float: right;
+    margin: 0 5% 0 0;
+    padding-top: 1.5%;
+}
+
+
+#Events ul {
+    margin: 0;
+    padding-left: 0;
+    overflow: auto;
+    list-style: none;
+    
+    
+}
+
+#Events li {
+    padding: 1%;
+    border-top: 2px solid #965e02;
+    background-color: rgba(80, 80, 80, 0.85);
+    text-align: center;
+}
+
+#Events li:first-child {
+    border-top: none;
+}
+
+#Events h3 {
+    font: 180% 'Anton', sans-serif;
+    color: #fff;
+}
+
+#Events p {
+    font: 120%/1.5 'Germania One', cursive, serif;
+    color: #fff;
+}
+
+#Footer {
+    clear: both;
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    font: 100% 'Anton', sans-serif;
+    color: #fff;
+}
+
+#Footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#About {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#About img {
+    width: 50%;
+    float: left;
+    margin: 2%;
+    border: 2px solid #000;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+#About ul {
+    margin: 0;
+    padding: 2% 2% 1% 2%;;
+    list-style: none;
+    font: 150%/2 'Germania One', sans-serif;
+    color: #fff;
+    float: left;
+    border-bottom: 3px solid #965e02 ;
+}
+
+#About p {
+    clear: both;
+    font: 120%/1.5 'Germania One', cursive, serif;
+    color: #fff; 
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.CharacterDisplay {
+    overflow: auto;
+    width: 100%;
+    border-bottom: 2px solid #000;
+    padding-bottom: 2%;
+}
+
+
+.CharacterDisplay img{
+    border: 2px solid #000;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+    float: left;
+    margin : 3% 2% 2% 2%;
+    transition: all 0.5s;
+}
+
+.CharacterDisplay img:hover{
+    transform: scale(1.2);
+}
+
+.CharacterDisplay h2{
+    text-align: center;
+    width: 80%;
+    font: 220% 'Anton', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 5%;
+    border-bottom: 2px solid #965e02;
+}
+
+.CharacterDisplay ul{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.CharacterDisplay li{
+    font: 190%/1.5 'Germania One', cursive, serif;
+    color: #fff;
+}
+
+.CharacterDisplay li:first-child{
+    font-size: 210%;
+    text-decoration: underline #965e02;
+}
+
+.CharacterDisplay a{
+    color: #fff;
+}
+
+.CharacterDisplay p{
+    clear: both;
+    margin: 0 5%;
+    font: 120%/1.4 'Germania One', cursive, serif;
+    color: #fff;
+}
+
+#RaidPictures {
+    width: 100%;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+#RaidPictures img {
+    overflow: auto;
+    width: 45%;
+    float: left;
+    margin: 2%;
+    border: 2px solid #000;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+#RaidInfo {
+    margin: 2%;
+    overflow: auto;
+    padding: 2%;
+    background-color: rgba(18, 18, 18, 0.55);
+}
+
+.RaidTier {
+    width: 50%;
+    float: left;
+    overflow: auto;
+    color: #fff;
+    border-bottom: 2px solid #965e02;
+}
+
+.RaidTier h2{
+    text-decoration: underline #965e02;
+}
+
+.RaidTier ol{
+    padding: 0;
+}
+
+.RaidTier li{
+    padding-bottom: 2%;
+    font: 120%/1.4 'Germania One', cursive, serif;
+}
+
+@media screen and (max-width:1000px) {
+    #Events {
+        margin-right: 3%;
+        width: 20%;
+    }
+    .Section img {
+        width: 32%;
+    }
+    
+    .Section p {
+        line-height: 1.4;
+        padding: 1%;
+    }
+    
+    .Events h3{ 
+        font-size: 150%;
+    }
+    .RaidTier {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    body{
+        background-image: none;
+    }
+    
+    #wrap {
+        width: 95%;
+        margin: 0;
+    }
+    
+    .Section {
+        border-radius: 0;
+        padding: 0;
+    }
+    
+    .Section h2 {
+        margin-top: 0;
+    }
+    
+    .Section img {
+        width: 28%;
+    }
+    
+    .Section p {
+        margin: 0;
+
+    }   
+    
+    #About ul {
+        font: 130%/1.5 'Germania One', cursive, serif;
+    }
+}
+
+@media screen and (max-width:730px){
+    #Wrap {
+        width: 100%;
+    }
+    #Navigation {
+        margin: 0;
+    }
+    
+    #Navigation ul{
+        display: block;
+    }
+    #LeftNav {
+        width: 50%;
+        float: left;
+        margin: 0;
+    }
+    
+    #LeftNav li {
+        display: block;    
+    }
+    
+    #RightNav {
+        width: 50%;
+        overflow: auto;
+        margin: 0;
+    }
+    
+    #RightNav li {
+        display: block;
+        clear: right;
+    }
+    
+    #Header h1{
+        font-size: 450%;
+    }
+    
+    .Section img {
+        display: none;
+    }
+    #RaidPictures img {
+        float: none;
+        display: block;
+        width: 80%;
+        margin: 2% auto;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    
+    
+    .Section {
+        border: none;
+        margin-bottom: 4%;
+        padding-bottom: 1%;
+    }
+    
+    .Section h2 {
+        margin-bottom: 0;
+        border-bottom: 3px solid #965e02 ;
+    }
+    
+    
+    #Events {
+        float: left;
+        margin-right: 0;
+        padding: 0;
+        width: 25%;
+    }
+    
+    #Events h3 {
+        font-size: 130%;
+    }
+    
+    #About img {
+        display: block;
+        width: 95%;
+        margin: 1% auto;
+        float: none;
+    }
+    
+    #About ul {
+        border-bottom: none;
+        text-align: center;
+        float: none;
+        clear: both;
+    }
+}
+
+@media screen and (max-width:490px){
+    .CharacterDisplay img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .CharacterDisplay h2 {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .CharacterDisplay  ul {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:470px){
+    
+    #Header {
+        margin: 0;
+    }
+    
+    #Header h1{
+        font-size: 350%;
+    }
+
+    .Section {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .Section h2 {
+        border-top: 3px solid #965e02 ;
+    }
+    
+    #RaidInfo {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:425px){
+    #News {
+        width:100%;
+    }
+    
+    #Events {
+        width: 100%;
+    }
+    
+    #RaidPictures img {
+        width: 95%;
+    }
+    
+    #RaidPictures img:first-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width:370px){
+    #Header h1{
+        font-size: 250%;
+    }
+    .Section h2 {
+        font-size: 150%;
+    }
+}
